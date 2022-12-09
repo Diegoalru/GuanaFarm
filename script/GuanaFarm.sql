@@ -52,19 +52,13 @@ INSERT INTO
     products
         (name, description, price, image)
     VALUES
-        ('product1', 'product1', 1000.00, ''),
-        ('product2', 'product2', 2000.00, ''),
-        ('product3', 'product3', 3000.00, ''),
-        ('product4', 'product4', 4000.00, ''),
-        ('product5', 'product5', 5000.00, ''),
-        ('product6', 'product6', 6000.00, ''),
-        ('product7', 'product7', 7000.00, ''),
-        ('product8', 'product8', 8000.00, ''),
-        ('product9', 'product9', 9000.00, ''),
-        ('product10', 'product10', 10000.00, '');
-
-
-SELECT id, name, description, price, image FROM products;
-
-UPDATE products
-    SET image = CONCAT('https://cloudfront-us-east-1.images.arcpublishing.com/gruponacion/7JKZROQFXBCCBD2AESV4GFNMO4.jpg');
+        ('Lisan Analges', 'Solucion Bebible 25 MG / 10 ML', 1050.00, 'lisan_analges.jpg'),
+        ('Vidatox', 'Gotas 30 ML', 83900.24, 'vidatox.jpg'),
+        ('Dolo-Medox', 'Tabletas via Oral', 470.00, 'dolo.jpg'),
+        ('Eucerin', 'Ultra Light Serum', 32411.79, 'eucerin.jpg'),
+        ('Sensilis', 'Black Peel 50 ML', 27660.14, 'sensilis.jpg'),
+        ('Silimar', 'Tabletas via oral', 243.72, 'silimar.jpg'),
+        ('La Roche', 'Hyalu B5 Serum 30 ML', 40860.80, 'roche.jpg'),
+        ('Rupatadina', 'Calox Solucion Oral 1 MG', 10590.00, 'rupatadina.jpg'),
+        ('Microdacyn', 'Solucion Bucal 120 ML', 9595.00, 'microdacyn.png'),
+        ('Enfagrow', 'Formula Infantil Premium 3 Natural', 16914.47, 'enfagrow.jpg');
