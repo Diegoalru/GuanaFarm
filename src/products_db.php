@@ -2,13 +2,12 @@
 
 $mysqli = new mysqli("db", "guanafarma", "guanafarma", "guanafarma") or die(mysqli_error($mysqli));
 
-if(isset($_GET['productSearch'])) {
+if (isset($_GET['productSearch']) && $_GET['productSearch'] != "") {
     echo "Search results for: " . $_GET['productSearch'];
 
     $search = $_GET['productSearch'];
     $sql = "SELECT * FROM products WHERE name LIKE '%$search%' OR description LIKE '%$search%';";
-}
-else{
+} else {
     $sql = "SELECT * FROM products;";
 }
 
@@ -30,5 +29,3 @@ if (!empty($products)) {
 } else {
     echo "No products found";
 }
-
-?>

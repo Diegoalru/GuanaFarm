@@ -32,13 +32,13 @@
     <div class="u-clearfix u-sheet u-sheet-1">
         <h1 class="u-align-center u-custom-font u-font-montserrat u-text u-title u-text-1">GuanaFarma</h1>
         <nav class="u-menu u-menu-one-level u-offcanvas u-menu-1">
-            <div class="menu-collapse" style="font-size: 1rem; letter-spacing: 0px;">
+            <div class="menu-collapse" style="font-size: 1rem; letter-spacing: 0;">
                 <a class="u-button-style u-custom-left-right-menu-spacing u-custom-padding-bottom u-custom-top-bottom-menu-spacing u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base"
                    href="#">
                     <svg class="u-svg-link" viewBox="0 0 24 24">
                         <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#menu-hamburger"></use>
                     </svg>
-                    <svg class="u-svg-content" version="1.1" id="menu-hamburger" viewBox="0 0 16 16" x="0px" y="0px"
+                    <svg class="u-svg-content" id="menu-hamburger" viewBox="0 0 16 16" x="0px" y="0px"
                          xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
                         <g>
                             <rect y="1" width="16" height="2"></rect>
@@ -51,14 +51,15 @@
             <?php
             include 'navigation.php';
             ?>
-                <div class="u-black u-menu-overlay u-opacity u-opacity-70"></div>
-            </div>
-        </nav>
+            <div class="u-black u-menu-overlay u-opacity u-opacity-70"></div>
+    </div>
+    </nav>
     </div>
 </header>
 <section class="u-align-center u-clearfix u-section-1" id="carousel_148f">
     <div class="u-clearfix u-sheet u-sheet-1">
-        <form action="Products.php" method="get" class="u-border-1 u-border-grey-30 u-search u-search-left u-white u-search-1">
+        <form action="Products.php" method="get"
+              class="u-border-1 u-border-grey-30 u-search u-search-left u-white u-search-1">
             <button class="u-search-button" type="submit">
             <span class="u-search-icon u-spacing-10">
               <svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 56.966 56.966"><use
@@ -72,18 +73,17 @@
             <input class="u-search-input" type="text" name="productSearch" value="" placeholder="Search">
         </form>
 
-        <h3 class="u-custom-font u-font-montserrat u-text u-text-default u-text-2">Products<br>
+        <h3 class="u-custom-font u-font-montserrat u-text u-text-default u-text-2" style="margin-bottom: 50px">Products<br>
         </h3>
         <div class="u-expanded-width u-table u-table-responsive u-table-1">
             <table class="u-table-entity u-table-entity-1">
                 <colgroup>
                     <col width="20%">
-                    <col width="20%">
-                    <col width="20%">
-                    <col width="20%">
-                    <col width="20%">
+                    <col width="30%">
+                    <col width="25%">
+                    <col width="25%">
                 </colgroup>
-                <thead class="u-custom-font u-font-courier-new u-palette-4-base u-table-header u-table-header-1">
+                <thead class="u-custom-font u-font-courier-new u-palette-4-base u-table-header u-table-header-1" style="max-height: 150px">
                 <tr>
                     <th class="u-table-cell">Name</th>
                     <th class="u-table-cell">Description</th>
@@ -93,11 +93,7 @@
                 </thead>
                 <tbody class="u-table-body">
 
-                <?php
-
-                require "products_db.php";
-
-                ?>
+                <?php require "products_db.php"; ?>
 
             </table>
         </div>
@@ -106,7 +102,7 @@
 
 <footer class="u-align-center u-clearfix u-footer u-grey-80 u-footer" id="sec-0e02">
     <div class="u-clearfix u-sheet u-sheet-1">
-        <p class="u-small-text u-text u-text-variant u-text-1">GuanaFarm - 2022</p>
+        <p class="u-small-text u-text u-text-variant u-text-1">GuanaFarma - 2022</p>
     </div>
 </footer>
 

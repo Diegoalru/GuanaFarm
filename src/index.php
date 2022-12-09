@@ -15,8 +15,6 @@
           href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i">
     <link id="u-page-google-font" rel="stylesheet"
           href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i">
-
-
     <script type="application/ld+json">{
             "@context": "http://schema.org",
             "@type": "Organization",
@@ -49,7 +47,7 @@
                 </a>
             </div>
             <?php
-                require "navigation.php";
+            require "navigation.php";
             ?>
         </nav>
     </div>
@@ -93,7 +91,7 @@
 
 <footer class="u-align-center u-clearfix u-footer u-grey-80 u-footer" id="sec-0e02">
     <div class="u-clearfix u-sheet u-sheet-1">
-        <p class="u-small-text u-text u-text-variant u-text-1">GuanaFarm - 2022</p>
+        <p class="u-small-text u-text u-text-variant u-text-1">GuanaFarma - 2022</p>
     </div>
 </footer>
 
