@@ -18,9 +18,9 @@ services:
     restart: always
     environment:
       MYSQL_ROOT_PASSWORD: alpine
-      MYSQL_DATABASE: guanafarm
-      MYSQL_USER: guanafarm
-      MYSQL_PASSWORD: guanafarm
+      MYSQL_DATABASE: guanafarma
+      MYSQL_USER: guanafarma
+      MYSQL_PASSWORD: guanafarma
     ports:
         - 3306:3306
     volumes:

@@ -1,12 +1,12 @@
 USE mysql;
 
-CREATE DATABASE IF NOT EXISTS guanafarm;
+CREATE DATABASE IF NOT EXISTS guanafarma;
 
-CREATE USER IF NOT EXISTS 'guanafarm'@'%' IDENTIFIED BY 'guanafarm';
-GRANT ALL PRIVILEGES ON guanafarm.* TO 'guanafarm'@'%';
+CREATE USER IF NOT EXISTS 'guanafarma'@'%' IDENTIFIED BY 'guanafarma';
+GRANT ALL PRIVILEGES ON guanafarma.* TO 'guanafarma'@'%';
 FLUSH PRIVILEGES;
 
-USE guanafarm;
+USE guanafarma;
 
 CREATE TABLE IF NOT EXISTS `users`
 (
